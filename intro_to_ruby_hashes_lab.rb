@@ -23,8 +23,8 @@ def read_from_hash(hash, key)
 hash[key]
 end 
 
-def update_counting_hash(hash, key)
-  {:hash => key
-    hash +1
-  }
-end
+# def update_counting_hash(hash, key)
+#   {:hash => key
+#     hash +1
+#   }
+# end
