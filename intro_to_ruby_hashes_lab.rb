@@ -28,7 +28,7 @@ end
 # if key is present, returns a hash where the key's value is incremented by 1" 
 
 def update_counting_hash(hash, key)
-  {:hash => key
-    hash +1
-  }
+  if hash[key] 
+    return hash[key]+1
+    
 end
