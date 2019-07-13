@@ -25,7 +25,7 @@ end
 
 # "if key is not present, returns a hash with the provided key assigned to the value of 1"
 
-
+# if key is present, returns a hash where the key's value is incremented by 1" 
 
 def update_counting_hash(hash, key)
   {:hash => key
