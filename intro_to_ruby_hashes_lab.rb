@@ -23,6 +23,8 @@ def read_from_hash(hash, key)
   hash[key]
 end 
 
+# "if key is not present, returns a hash with the provided key assigned to the value of 1"
+
 
 
 def update_counting_hash(hash, key)
